@@ -142,11 +142,12 @@
                         </div>
                      </div>
                   </div>
+
                   <div class="row">
-                     <div class="col-8 mx-auto">
+                     <div class="col-8 mx-auto mt-3 ">
                         <center>
                            <div class="form-group">
-                              <asp:Button class="btn btn-primary btn-block btn-lg" ID="Button1" runat="server" Text="Update" />
+                              <asp:Button class="btn btn-primary w-100 btn-block"  ID="Button1" runat="server" Text="Update" />
                            </div>
                         </center>
                      </div>
