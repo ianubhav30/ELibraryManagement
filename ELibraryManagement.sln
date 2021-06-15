@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1525
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ELibraryManagement", "ELibraryManagement\ELibraryManagement.csproj", "{533BD47E-F746-4DD3-AF03-B7C38850C79B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ELibraryManagement", "ELibraryManagement\ELibraryManagement.csproj", "{A7C4DA23-547F-482D-BBDC-60D4CC3D7E47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{533BD47E-F746-4DD3-AF03-B7C38850C79B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{533BD47E-F746-4DD3-AF03-B7C38850C79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{533BD47E-F746-4DD3-AF03-B7C38850C79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{533BD47E-F746-4DD3-AF03-B7C38850C79B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7C4DA23-547F-482D-BBDC-60D4CC3D7E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C4DA23-547F-482D-BBDC-60D4CC3D7E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C4DA23-547F-482D-BBDC-60D4CC3D7E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C4DA23-547F-482D-BBDC-60D4CC3D7E47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {3D297F6D-B625-4817-B57B-8843C02DB9E7}
+		SolutionGuid = {A08358D4-E694-4250-A70A-F60570B7BB10}
 	EndGlobalSection
 EndGlobal
