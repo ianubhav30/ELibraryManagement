@@ -168,6 +168,9 @@
                            <asp:Button class="btn btn-success btn-block w-100 btn-lg" ID="Button1" runat="server" Text="Sign Up" OnClick="Button1_Click" />
                         </div>
                      </div>
+
+                    
+
                      </center>
                   </div>
                </div>
