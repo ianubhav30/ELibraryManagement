@@ -51,7 +51,7 @@
                      <div class="col-md-4" style="padding-top:10px;">
                         <label>Language</label>
                         <div class="form-group">
-                           <asp:DropDownList class="form-control" ID="DropDownList1" runat="server">
+                           <asp:DropDownList class="form-select" ID="DropDownList1" runat="server">
                               <asp:ListItem Text="English" Value="English" />
                               <asp:ListItem Text="Hindi" Value="Hindi" />
                               <asp:ListItem Text="Marathi" Value="Marathi" />
@@ -62,7 +62,7 @@
                         </div>
                         <label style="padding-top:10px;">Publisher Name</label>
                         <div class="form-group">
-                           <asp:DropDownList class="form-control" ID="DropDownList2" runat="server">
+                           <asp:DropDownList class="form-select" ID="DropDownList2" runat="server">
                               <asp:ListItem Text="Publisher 1" Value="Publisher 1" />
                               <asp:ListItem Text="Publisher 2" Value="Publisher 2" />
                            </asp:DropDownList>
@@ -71,7 +71,7 @@
                      <div class="col-md-4" style="padding-top:10px;">
                         <label>Author Name</label>
                         <div class="form-group">
-                           <asp:DropDownList class="form-control" ID="DropDownList3" runat="server">
+                           <asp:DropDownList class="form-select" ID="DropDownList3" runat="server">
                               <asp:ListItem Text="A1" Value="a1" />
                               <asp:ListItem Text="A2" Value="a2" />
                            </asp:DropDownList>
@@ -125,13 +125,13 @@
                      <div class="col-md-4">
                         <label>Book Cost(per unit)</label>
                         <div class="form-group">
-                           <asp:TextBox CssClass="form-control" ID="TextBox10" runat="server" placeholder="Book Cost(per unit)" TextMode="Number"></asp:TextBox>
+                           <asp:TextBox CssClass="form-control" ID="TextBox10" runat="server" placeholder="Book Cost(per unit)" TextMode="Number" min="0"></asp:TextBox>
                         </div>
                      </div>
                      <div class="col-md-4">
                         <label>Pages</label>
                         <div class="form-group">
-                           <asp:TextBox CssClass="form-control" ID="TextBox11" runat="server" placeholder="Pages" TextMode="Number"></asp:TextBox>
+                           <asp:TextBox CssClass="form-control" ID="TextBox11" runat="server" placeholder="Pages" TextMode="Number" min="0"></asp:TextBox>
                         </div>
                      </div>
                   </div>
@@ -139,7 +139,7 @@
                      <div class="col-md-4">
                         <label>Actual Stock</label>
                         <div class="form-group">
-                           <asp:TextBox CssClass="form-control" ID="TextBox4" runat="server" placeholder="Actual Stock" TextMode="Number"></asp:TextBox>
+                           <asp:TextBox CssClass="form-control" ID="TextBox4" runat="server" placeholder="Actual Stock" TextMode="Number" min="0"></asp:TextBox>
                         </div>
                      </div>
                      <div class="col-md-4">
