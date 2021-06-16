@@ -32,7 +32,7 @@
                   <div class="row">
                      <div class="col-md-4">
                         <label>Publisher ID</label>
-                        <div class="form-group">
+                        <div class="form-group" style="padding-top:10px;">
                            <div class="input-group">
                                  <asp:TextBox CssClass="form-control" ID="TextBox" runat="server" placeholder="Id"></asp:TextBox>
                                  <asp:Button class="btn btn-primary" ID="Button1" runat="server" Text="Go" />                 
@@ -41,7 +41,7 @@
                      </div>
                      <div class="col-md-7">
                         <label>Publisher Name</label>
-                        <div class="form-group">
+                        <div class="form-group" style="padding-top:10px;">
                            <asp:TextBox CssClass="form-control" ID="TextBox2" runat="server" placeholder="Publisher Name"></asp:TextBox>
                         </div>
                      </div>
