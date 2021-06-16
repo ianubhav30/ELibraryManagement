@@ -54,7 +54,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="row">
+                  <div class="row" style="padding-top:10px;">
                      <div class="col-md-3">
                         <label>DOB</label>
                         <div class="form-group">
@@ -74,7 +74,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="row">
+                  <div class="row" style="padding-top:10px;">
                      <div class="col-md-4">
                         <label>State</label>
                         <div class="form-group">
@@ -94,7 +94,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="row">
+                  <div class="row" style="padding-top:10px;">
                      <div class="col-12">
                         <label>Full Postal Address</label>
                         <div class="form-group">
@@ -102,10 +102,12 @@
                         </div>
                      </div>
                   </div>
-                  <div class="row">
+                  <div class="row" style="padding-top:10px;">
+                      <center>
                      <div class="col-8 mx-auto">
                         <asp:Button ID="Button2" class="btn btn-lg btn-block btn-danger" runat="server" Text="Delete User Permanently" />
                      </div>
+                     </center>
                   </div>
                </div>
             </div>

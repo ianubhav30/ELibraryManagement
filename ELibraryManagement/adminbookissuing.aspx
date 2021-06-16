@@ -26,7 +26,7 @@
                                 <hr>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row" >
                             <div class="col-md-6">
                                 <label>Member ID</label>
                                 <div class="form-group">
@@ -43,7 +43,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row" style="padding-top:10px;">
                             <div class="col-md-6">
                                 <label>Member Name</label>
                                 <div class="form-group">
@@ -57,7 +57,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row" style="padding-top:10px;">
                             <div class="col-md-6">
                                 <label>Start Date</label>
                                 <div class="form-group">
@@ -71,13 +71,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row" style="padding-top:10px;">
+                            <center>
                             <div class="col-6">
                                 <asp:Button ID="Button2" class="btn btn-lg btn-block btn-primary" runat="server" Text="Issue" />
-                            </div>
-                            <div class="col-6">
                                 <asp:Button ID="Button4" class="btn btn-lg btn-block btn-success" runat="server" Text="Return" />
-                            </div>
+                            </div>                   
+                            </center>
                         </div>
                     </div>
                 </div>

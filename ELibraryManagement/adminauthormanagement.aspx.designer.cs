@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ELibraryManagement {
-    
-    
-    public partial class adminauthormanagement {
-        
+namespace ELibraryManagement
+{
+
+
+    public partial class adminauthormanagement
+    {
+
         /// <summary>
         /// TextBox control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace ELibraryManagement {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox;
-        
+
         /// <summary>
         /// Button1 control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace ELibraryManagement {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
-        
+
         /// <summary>
         /// TextBox2 control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace ELibraryManagement {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox2;
-        
+
         /// <summary>
         /// Button2 control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace ELibraryManagement {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button2;
-        
+
         /// <summary>
         /// Button3 control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace ELibraryManagement {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button3;
-        
+
         /// <summary>
         /// Button4 control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace ELibraryManagement {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button4;
-        
+
         /// <summary>
         /// GridView1 control.
         /// </summary>
