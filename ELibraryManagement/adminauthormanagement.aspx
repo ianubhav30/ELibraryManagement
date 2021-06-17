@@ -36,7 +36,7 @@
                      </div>
                   </div>
                   <div class="row">
-                     <div class="col-md-4">
+                     <div class="col-md-5">
                         <label>Author ID</label>
                         <div class="form-group" style="padding-top:10px;">
                            <div class="input-group">
