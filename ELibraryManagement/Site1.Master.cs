@@ -35,6 +35,10 @@ namespace ELibraryManagement
                     LinkButton3.Visible = true;
                     LinkButton7.Visible = true;
                     LinkButton7.Text = "Hello " + Session["username"].ToString();
+//<<<<<<< Atreyee-patch-1
+//=======
+                    LinkButton7.Visible = true;
+//>>>>>>> master
                     LinkButton6.Visible = true;
                     LinkButton11.Visible = false;
                     LinkButton12.Visible = false;
@@ -126,11 +130,21 @@ namespace ELibraryManagement
             Response.Redirect("homepage.aspx");
         }
         // view profile
+//<<<<<<< Atreyee-patch-1
         
 
         protected void LinkButton7_Click1(object sender, EventArgs e)
         {
             Response.Redirect("userprofile.aspx");
         }
+//=======
+        protected void LinkButton7_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("userprofile.aspx");
+
+        }
+
+
+//>>>>>>> master
     }
 }
