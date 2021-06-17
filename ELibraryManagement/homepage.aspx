@@ -12,7 +12,7 @@
                 <div class="col-12">
                     <center>
                     <h2>Our Features</h2>
-                    <p><b>Our 3 Features</b></p>
+                    <p><b>Our 3 Primary Features</b></p>
                     </center>
                 </div>
             </div>
