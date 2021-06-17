@@ -23,7 +23,14 @@
                      <div class="col">
                         <center>
                            <h4>Your Profile</h4>
+//<<<<<<< Atreyee-patch-1
+                           <span>Account Status - 
+                           <asp:Label class="badge badge-pill badge-info" ID="Label1" runat="server" Text="Your status"></asp:Label>
+                            </span>
+                           </center>
+//=======
                         </center>
+//>>>>>>> master
                      </div>
                   </div>
                   <div class="row">
@@ -122,7 +129,7 @@
                   <div class="row">
                      <div class="col">
                         <center>
-                           <span class="badge badge-pill badge-info">Login Credentials</span>
+                           <span class="badge badge-primary">Login Credentials</span>
                         </center>
                      </div>
                   </div>
@@ -136,7 +143,11 @@
                      <div class="col-md-4">
                         <label>Old Password</label>
                         <div class="form-group">
+//<<<<<<< Atreyee-patch-1
+                           <asp:TextBox class="form-control" ID="TextBox9" runat="server" placeholder="Old Password" TextMode="Password" ReadOnly="True"></asp:TextBox>
+//=======
                            <asp:TextBox class="form-control" ID="TextBox9" runat="server" placeholder="Old Password" ReadOnly="True" ></asp:TextBox>
+//>>>>>>> master
                         </div>
                      </div>
                      <div class="col-md-4">
@@ -150,8 +161,13 @@
                      <div class="col-8 mx-auto">
                         <center>
                            <div class="form-group" style="padding-top:10px;">
+//<<<<<< Atreyee-patch-1
+                              <asp:Button class="btn btn-primary btn-block btn-lg" ID="Button1" runat="server" Text="Update" />
+                              <asp:Button class="btn btn-danger btn-block btn-lg" ID="Button2" runat="server" Text="Delete" />
+//=======
                               <asp:Button class="btn btn-primary btn-block btn-lg" ID="Button1" runat="server" Text="Update" OnClick="Button1_Click" />
                               <asp:Button class="btn btn-danger btn-block btn-lg" ID="Button2" runat="server" Text="Delete" OnClick="Button2_Click" />
+//>>>>>>> master
 
                            </div>
 
@@ -179,7 +195,7 @@
                      <div class="col">
                         <center>
                            <h4>Your Issued Books</h4>
-                           <asp:Label class="badge badge-pill badge-info" ID="Label2" runat="server" Text="your books info"></asp:Label>
+                           <asp:Label class="badge badge-pill badge-primary" ID="Label2" runat="server" Text="your books info"></asp:Label>
                         </center>
                      </div>
                   </div>
