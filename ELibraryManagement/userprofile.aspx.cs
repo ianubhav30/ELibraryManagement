@@ -59,8 +59,7 @@ namespace ELibraryManagement
         protected void Button2_Click(object sender, EventArgs e)
         {
             deleteMemberByID();
-            Session["role"] = null;
-            Response.Redirect("homepage.aspx");
+            
 
             
         }
@@ -207,13 +206,30 @@ namespace ELibraryManagement
                         con.Open();
                     }
 
-                    SqlCommand cmd = new SqlCommand("DELETE from member_master_tbl WHERE member_id='" + TextBox8.Text.Trim() + "';", con);
+                    SqlCommand cmd= new SqlCommand("SELECT * from book_issue_tbl where member_id='" + Session["username"].ToString() + "';", con);
+                    SqlDataAdapter da = new SqlDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
+                    if (dt.Rows.Count < 1)
+                    {
+                        SqlCommand cmd1 = new SqlCommand("DELETE from member_master_tbl WHERE member_id='" + TextBox8.Text.Trim() + "';", con);
 
-                    cmd.ExecuteNonQuery();
-                    con.Close();
-                    Response.Write("<script>alert('Member Deleted Successfully');</script>");
-                    //clearForm();
-                    //GridView1.DataBind();
+                        cmd1.ExecuteNonQuery();
+                        con.Close();
+                        Session["role"] = null;
+                        Response.Redirect("homepage.aspx");
+                       // Response.Write("<script>alert('Profile Deleted');</script>");
+
+
+
+                    }
+                    else
+                    {
+                        Response.Write("<script>alert('Return books in order to delete profile');</script>");
+
+
+                    }
+
 
                 }
                 catch (Exception ex)
