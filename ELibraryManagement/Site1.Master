@@ -15,6 +15,7 @@
 
     <%--our custom CSS--%>
     <link href="CSS/customstylesheet.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <%--juery--%>
     <script src="bootstrap/js/jquery-3.3.1.slim.min.js"></script>
