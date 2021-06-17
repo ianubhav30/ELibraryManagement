@@ -17,9 +17,10 @@
                      <div class="col">
                         <center>
                            <h4>Your Profile</h4>
-                           <span>Account Status - </span>
+                           <span>Account Status - 
                            <asp:Label class="badge badge-pill badge-info" ID="Label1" runat="server" Text="Your status"></asp:Label>
-                        </center>
+                            </span>
+                           </center>
                      </div>
                   </div>
                   <div class="row">
@@ -41,7 +42,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="row">
+                  <div class="row" style="padding-top:10px;">
                      <div class="col-md-6">
                         <label>Contact No</label>
                         <div class="form-group">
@@ -55,7 +56,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="row">
+                  <div class="row" style="padding-top:10px;">
                      <div class="col-md-4">
                         <label>State</label>
                         <div class="form-group">
@@ -107,7 +108,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="row">
+                  <div class="row" style="padding-top:10px;">
                      <div class="col">
                         <label>Full Address</label>
                         <div class="form-group">
@@ -118,11 +119,11 @@
                   <div class="row">
                      <div class="col">
                         <center>
-                           <span class="badge badge-pill badge-info">Login Credentials</span>
+                           <span class="badge badge-primary">Login Credentials</span>
                         </center>
                      </div>
                   </div>
-                  <div class="row">
+                  <div class="row" style="padding-top:10px;">
                      <div class="col-md-4">
                         <label>User ID</label>
                         <div class="form-group">
@@ -132,23 +133,28 @@
                      <div class="col-md-4">
                         <label>Old Password</label>
                         <div class="form-group">
-                           <asp:TextBox class="form-control" ID="TextBox9" runat="server" placeholder="Email ID" TextMode="Password" ReadOnly="True"></asp:TextBox>
+                           <asp:TextBox class="form-control" ID="TextBox9" runat="server" placeholder="Old Password" TextMode="Password" ReadOnly="True"></asp:TextBox>
                         </div>
                      </div>
                      <div class="col-md-4">
                         <label>New Password</label>
                         <div class="form-group">
-                           <asp:TextBox class="form-control" ID="TextBox10" runat="server" placeholder="Email ID" TextMode="Password"></asp:TextBox>
+                           <asp:TextBox class="form-control" ID="TextBox10" runat="server" placeholder="New Password" TextMode="Password"></asp:TextBox>
                         </div>
                      </div>
                   </div>
-
                   <div class="row">
-                     <div class="col-8 mx-auto mt-3 ">
+                     <div class="col-8 mx-auto">
                         <center>
-                           <div class="form-group">
-                              <asp:Button class="btn btn-primary w-100 btn-block"  ID="Button1" runat="server" Text="Update" />
+                           <div class="form-group" style="padding-top:10px;">
+                              <asp:Button class="btn btn-primary btn-block btn-lg" ID="Button1" runat="server" Text="Update" />
+                              <asp:Button class="btn btn-danger btn-block btn-lg" ID="Button2" runat="server" Text="Delete" />
+
                            </div>
+
+                            <div class="form-group">
+                           </div>
+
                         </center>
                      </div>
                   </div>
@@ -170,7 +176,7 @@
                      <div class="col">
                         <center>
                            <h4>Your Issued Books</h4>
-                           <asp:Label class="badge badge-pill badge-info" ID="Label2" runat="server" Text="your books info"></asp:Label>
+                           <asp:Label class="badge badge-pill badge-primary" ID="Label2" runat="server" Text="your books info"></asp:Label>
                         </center>
                      </div>
                   </div>
