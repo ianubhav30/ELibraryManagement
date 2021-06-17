@@ -1,5 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="userprofile.aspx.cs" Inherits="ELibraryManagement.userprofile" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server"></asp:Content>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <script type="text/javascript">
+       $(document).ready(function () {
+           $(".table").prepend($("<thead></thead>").append($(this).find("tr:first"))).dataTable();
+       });
+    </script>
+</asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
    <div class="container-fluid">
       <div class="row">
@@ -17,10 +23,14 @@
                      <div class="col">
                         <center>
                            <h4>Your Profile</h4>
+//<<<<<<< Atreyee-patch-1
                            <span>Account Status - 
                            <asp:Label class="badge badge-pill badge-info" ID="Label1" runat="server" Text="Your status"></asp:Label>
                             </span>
                            </center>
+//=======
+                        </center>
+//>>>>>>> master
                      </div>
                   </div>
                   <div class="row">
@@ -38,7 +48,7 @@
                      <div class="col-md-6">
                         <label>Date of Birth</label>
                         <div class="form-group">
-                           <asp:TextBox CssClass="form-control" ID="TextBox2" runat="server" placeholder="Password" TextMode="Date"></asp:TextBox>
+                           <asp:TextBox CssClass="form-control" ID="TextBox2" runat="server" placeholder="Date of Birth" TextMode="Date"></asp:TextBox>
                         </div>
                      </div>
                   </div>
@@ -133,7 +143,11 @@
                      <div class="col-md-4">
                         <label>Old Password</label>
                         <div class="form-group">
+//<<<<<<< Atreyee-patch-1
                            <asp:TextBox class="form-control" ID="TextBox9" runat="server" placeholder="Old Password" TextMode="Password" ReadOnly="True"></asp:TextBox>
+//=======
+                           <asp:TextBox class="form-control" ID="TextBox9" runat="server" placeholder="Old Password" ReadOnly="True" ></asp:TextBox>
+//>>>>>>> master
                         </div>
                      </div>
                      <div class="col-md-4">
@@ -147,8 +161,13 @@
                      <div class="col-8 mx-auto">
                         <center>
                            <div class="form-group" style="padding-top:10px;">
+//<<<<<< Atreyee-patch-1
                               <asp:Button class="btn btn-primary btn-block btn-lg" ID="Button1" runat="server" Text="Update" />
                               <asp:Button class="btn btn-danger btn-block btn-lg" ID="Button2" runat="server" Text="Delete" />
+//=======
+                              <asp:Button class="btn btn-primary btn-block btn-lg" ID="Button1" runat="server" Text="Update" OnClick="Button1_Click" />
+                              <asp:Button class="btn btn-danger btn-block btn-lg" ID="Button2" runat="server" Text="Delete" OnClick="Button2_Click" />
+//>>>>>>> master
 
                            </div>
 
@@ -187,7 +206,7 @@
                   </div>
                   <div class="row">
                      <div class="col">
-                        <asp:GridView class="table table-striped table-bordered" ID="GridView1" runat="server"></asp:GridView>
+                        <asp:GridView class="table table-striped table-bordered" ID="GridView1" runat="server" OnRowDataBound="GridView1_RowDataBound1"></asp:GridView>
                      </div>
                   </div>
                </div>
